@@ -4,18 +4,76 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Product Landing Page</title>
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+        <header id="header">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light " id="nav-bar">
+                <div class="container-fluid text-dark fw-bold">
+                    <img src="images/image1.PNG" id="header-img" alt="" width="50" height="44" class="d-inline-block align-text-top">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                    <div class="collapse navbar-collapse justify-content-evenly" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link" href="#Features">Features</a>
+                            <a class="nav-link" href="#Pricing">Pricing</a>
+                            <a class="nav-link" href="#Contac us">Contac us</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="container bg-secondary">
+                <h3 class="text-center text-warning">
+                    <marquee behavior="" direction="">Locally Made High Quality Bamboo products</marquee>
+                </h3>
+                <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+
+                    <center>
+                        <div class="mb-4fa-flip-horizontal">
+                            <input type="email" class="form-control" id="email" placeholder="Enter your Email to get updates">
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit">Subscribe for updates</button>
+
+                    </center>
+                </form>
+                <div class="flex-container justify-content-evenly">
+                    <div>
+
+
+                    </div>
+
+                    <div>
+
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                    <div>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+    </div>
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
